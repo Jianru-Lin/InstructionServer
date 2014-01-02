@@ -1,0 +1,49 @@
+html
+	head
+		meta http-equiv=Content-Type content=text/html;charset=UTF-8
+		title | Auto Refresh Manager
+		link rel=stylesheet type=text/css href=css/style.css
+		script src=/common/js/json-client.js type=text/javascript
+		script src=/common/js/dev.js type=text/javascript
+		script src=js/main.js type=text/javascript
+	body
+		div
+			h2 | Auto Refresh Manager
+		div class=container
+			strong class=container-title | Path Name
+			div class=list
+				div class=item
+					span class=delete-button | -
+					div class=pathname | /pathname-here
+				div class=item
+					span class=delete-button | -
+					div class=pathname | /pathname-here
+				div class=item
+					span class=delete-button | -
+					div class=pathname | /pathname-here
+				a class=`item button` href=javascript: | +
+			div class=controller
+				a class=button href=javascript: | refresh
+
+		div class=container
+			strong class=container-title | Dependency
+			div class=`item pathname-editor`
+				div class=padding-fixer
+					input type=text class=filename value=`filename here`
+			div class=list
+				div class=item
+					span class=delete-button | -
+					div class=padding-fixer
+						input type=text class=filename value=`filename here`
+				div class=item
+					span class=delete-button | -
+					div class=padding-fixer
+						input type=text class=filename value=`filename here`
+				div class=item
+					span class=delete-button | -
+					div class=padding-fixer
+						input type=text class=filename value=`filename here`
+				a class=`item button` href=javascript: | +
+			div class=controller
+				a class=button href=javascript: | save
+

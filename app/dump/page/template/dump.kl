@@ -1,0 +1,11 @@
+html
+	head
+		meta http-equiv=Content-Type content=text/html;charset=UTF-8
+		title | Dump
+		script src=/common/js/json-client.js type=text/javascript
+		script src=/common/js/dev.js type=text/javascript
+		link href=dump/css/style.css rel=stylesheet type=text/css media=screen
+		script src=dump/js/main.js type=text/javascript
+		script src=/ace/ace.js type=text/javascript charset=UTF-8
+	body
+		div id=editor
